@@ -1,0 +1,35 @@
+sqlx + squirrel
+22 May 2024
+
+Dan Vergara
+daniel.omar.vergara@gmail.com
+https://t.me/danvergara
+https://github.com/danvergara
+
+*  Por qué sqlx y squirrel
+Es bien sabido que los ORMs aportan conveniencia a coste de desempeño.
+sqlc es una gran alternativa pero es una solución poco flexible a la hora de construir consultas dinámicas.
+
+Esta charla no es sqlc vs sqlx, se pueden combinar.
+Más acerca de esto, más adelante.
+
+*  sqlx
+sqlx es una extensión de proposito general de database/sql.
+
+Características:
+
+- Mapea registros a structs, maps y slices
+- Suporte para Name parameters incluyendo Prepared Statements
+- Funciones Get y Select.
+
+
+*  squirrel
+Constructor de consultas (query builder) para Go.
+
+Características:
+
+- Permite construir consultas dinámicas y compuestas.
+
+*  Ejemplo:
+
+*  Cuando usar sqlc
